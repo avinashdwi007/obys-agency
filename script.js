@@ -36,8 +36,12 @@ function loadingAnimation(){
     //     display: "none"
     // })
 
-    tl.from("#hero1 h1, #hero2 h1, #hero3 h2,#hero4 h1",{
-        y:180,
+    tl.from("#hero1 h1, #hero2 h1,#hero3 h2,#hero4 h1",{
+        y:120,
+        stagger:0.1
+    })
+    tl.to("#hero3 h2",{
+        y:0,
         stagger:0.1
     })
 }
